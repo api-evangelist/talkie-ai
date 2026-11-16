@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Talkie.ai is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://talkie.ai/
+Talkie.ai provides an AI‑powered medical receptionist that answers patient questions, routes calls, schedules appointments, manages waitlists, sends reminders, and creates patient charts. It is independently audited against SOC 2 Type II and meets HIPAA requirements, offering secure, healthcare‑grade conversation handling for practices of all sizes.
+
+**Areas:** Company · AI · Healthcare · MedicalReceptionist · HIPAA
+
+## Talkie.ai on APIs.io
+
+Everything profiled for Talkie.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/talkie-ai/](https://apis.io/providers/talkie-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Talkie.ai Calls API](https://apis.io/apis/talkie-ai/talkie-ai-calls-api/) — Call related operations
+- [Talkie.ai Contacts API](https://apis.io/apis/talkie-ai/talkie-ai-contacts-api/) — Contact related operations
+- [Talkie.ai Data Collection API](https://apis.io/apis/talkie-ai/talkie-ai-data-collection-api/) — The Data Collection API from Talkie.ai — 2 operation(s) for data collection.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Talkie.ai Agentic Access](https://apis.io/agentic-access/talkie-ai/talkie-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Call](https://apis.io/schemas/talkie-ai/talkie-ai-call/)
+- [CallDetails](https://apis.io/schemas/talkie-ai/talkie-ai-call-details/)
+- [Contact](https://apis.io/schemas/talkie-ai/talkie-ai-contact/)
+- [ContactToImport](https://apis.io/schemas/talkie-ai/talkie-ai-contact-to-import/)
+- [DataCollection](https://apis.io/schemas/talkie-ai/talkie-ai-data-collection/)
+- [DataCollectionInput](https://apis.io/schemas/talkie-ai/talkie-ai-data-collection-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Talkie Ai Context](https://apis.io/jsonld/talkie-ai/talkie-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Talkie.ai API Rules](https://apis.io/rules/talkie-ai/talkie-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Talkie.ai Authentication](https://apis.io/security/talkie-ai/talkie-ai-authentication/)
+- [Talkie.ai Domain Security](https://apis.io/security/talkie-ai/talkie-ai-domain-security/)
+- [Talkie.ai Trust Center](https://apis.io/security/talkie-ai/talkie-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Talkie.ai Plans Pricing](https://apis.io/plans/talkie-ai/talkie-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://talkie.ai/)
+- [API reference](https://docs.talkie.ai/)
+- [Pricing](https://talkie.ai/pricing/)
+- [Blog](https://talkie.ai/blog/)
+- [Security](https://talkie.ai/security/)
+- [Terms of service](https://talkie.ai/terms-and-conditions/)
+- [Privacy policy](https://talkie.ai/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 46.5** — developing · rubric 0.28.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 47.2 |
+
+**Agent readiness 30.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.1** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/talkie-ai/](https://apis.io/providers/talkie-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Talkie.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/talkie-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
